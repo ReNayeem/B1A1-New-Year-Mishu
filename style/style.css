@@ -300,3 +300,50 @@ body{
    color: #ffffff;
    padding-left: 20px;
  }
+
+ .form-parents{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .subscribe-form{
+    background-color: white;
+    border-radius: 2rem;
+ }
+
+ .subscribe-form input{
+    outline: none;
+    border: none;
+    color: rgba(7, 2, 17, 0.30);
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 390px;
+    padding: 1.2rem 1.5rem;
+    text-align: start;
+    border-radius: 2rem;
+ }
+
+ .subscribe-form button{
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    padding: 1.2rem 1.5rem;
+    width: 160px;
+    cursor: pointer;
+    transition: .2s all ease;
+ }
+
+ .subscribe-form button:hover{
+    background-color: rgb(220, 0, 0);
+ }
