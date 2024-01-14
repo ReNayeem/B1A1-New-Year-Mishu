@@ -1,0 +1,302 @@
+/* shared style */
+body{
+    font-family: 'Merriweather', serif;
+    
+}
+
+.header{
+    background: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url('../image/resources/Banner\ Image.png'); 
+    align-items: center;
+    background-position: center;
+    margin: 20px 60px;
+    border-radius: 10px; 
+    background-repeat: no-repeat;
+    background-size: auto; 
+    width: 90%;
+    height: 600px;
+    display: flex;
+    
+
+}
+
+.banner-content{
+    justify-items: center;
+    
+}
+.banner-greeting{
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 32px;
+    text-align: center;
+    padding-top: 177px;
+   
+}
+.banner-title{
+    font-weight: 900;
+    color: #ffffff; 
+    font-size: 72px;
+    line-height: 95px;
+    text-align: center;
+    padding-left: 344px;
+    padding-right: 344px;
+    padding-bottom: 177px;
+}
+/* off styles */
+    img{
+        
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+         
+    }
+    .off{
+        text-align: center;
+        color: #ff0000;
+        font-family: "Inter-Bold", Helvetica;
+        font-size: 80px;
+        font-weight: 700;
+    }
+    .holiday-deals{
+        text-align: center;
+        color: #ff0000;
+        font-family: "Inter-Medium", Helvetica;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .categories{
+        text-align: center;
+        font-family: "Inter-Bold", Helvetica;
+        color: #070211;
+        font-size: 40px;
+        font-weight: 700;
+        margin-top: 5px;
+    }
+    .welcome{
+        
+        background: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url('../image/resources/Vectorrr.png'); 
+        background-repeat: no-repeat;
+        background-size: auto; 
+        margin: 20px 60px;
+        border-radius: 10px;
+        width: 90%;
+        height: 600px;
+        display: flex;
+    }
+    .welcome-greeting{
+        font-family: "Merriweather-Black", Helvetica;
+        font-weight: 800;
+        color: #ffffff;
+        font-size: 60px;
+        letter-spacing: 7.04px;
+        line-height: 88px;
+    }
+    .welcome-description{
+        font-family: "Inter-Regular", Helvetica;
+        font-weight: 400;
+        color: #ffffffcc;
+        font-size: 18px;
+    }
+    .btn-primary{
+        font-family: "Inter-Bold", Helvetica;
+        font-weight: 500;
+        font-size: large;
+        color: #ffffff;
+        background-color: #000000;
+        text-decoration: none;
+    }
+    .welcome-year{
+        height: 500px;
+        width: 320px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        
+    }
+    .welcome-content{
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+    .welcome{
+        padding: 30px 30px 0px 150px;
+        display: flex;
+        justify-content: space-between;
+    }
+    /* address style */
+     .address{
+        background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) rgba(255, 0, 0, 0.00) 100%);
+        background-size: auto; 
+        margin: 20px 60px;
+        border-radius: 10px;
+        width: 90%;
+        height: 600px; 
+        
+       
+        
+        
+    }
+    .address-styles{
+        font-size: 20px;
+        font-weight: 400;
+        text-align: center;
+        padding-top: 150px;
+        padding-left: 100px;
+        padding-right: 100px;
+        
+    }
+    span{
+        color:#ff0000;
+    }
+    .btn-2 {
+        width: 150px;
+        height: 50px;
+        border-radius: 8px;
+        background-color: #ff0000;
+        color: #ffffff;
+        
+    }
+
+    .offer-1{
+        color: #ff0000;
+    }
+    .coming{
+        color: #000000;
+        font-size: 30px;
+        font-weight: 900;
+    }
+    .describe{
+        color:#07021199;
+        font-family: "Inter";
+        font-size: 15px;
+        font-weight: 500;
+       
+    }
+    .year{
+        color: #ff0000;
+        font-family: "Inter";
+        font-size: 30px;
+        font-weight: 1000;
+    }
+    .describe-2{
+        color:#07021199;
+        font-family: "Inter";
+        font-size: 15px;
+        font-weight: 500;
+        
+    }
+    .description-of-2024{
+        display: flex;
+        align-items: center;
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+    .happy-2 img{
+        padding: 10px;
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        border: 10px solid red;
+    }
+    .happy-1{
+        padding-right: 20px;
+        
+    }
+    .happy-3{
+        padding-left: 90px;
+    }
+    .happy-3 img{
+        padding-top: 30px;
+
+    }
+    .gifts{
+        color: #F00;
+        font-family: Inter;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 800;
+        
+    }
+    .port{
+        color: #070211;
+        font-family: Merriweather;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 900;
+        
+    }
+    .port-describe{
+        color: rgba(7, 2, 17, 0.60);
+        font-family: Inter;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+    }
+    .item-container{
+        display: grid;
+        grid-template-columns: auto auto auto ;
+        gap: 24px;
+        cursor: pointer;
+        
+}
+.item-container > div{
+    padding-left: 5px;
+    row-gap: 24px;
+}
+.item-container > div:hover{
+    
+    background-color:rgb(231, 214, 181);
+    border-radius: 2%;
+}
+.awesome-port{
+    
+    margin: 50px 60px;
+}
+ .subscribe{
+    text-align: center;
+    margin-top: 5%;
+    background: rgba(255, 0, 0, 0.05);
+    border-radius: 16px;
+    margin: 20px 60px ;
+    padding-top: 80px;
+    width: 90%;
+    height: 400px; 
+        
+ }
+ .sub-describ{
+    font-size: 15px;
+    font-family: "Inter";
+    font-weight: 200;
+    color: rgba(7, 2, 17, 1);
+ }
+ .btn-5{
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    
+ }
+ .last-part{
+    background-color: #000000;
+ }
+ .social-img > img {
+        
+        display: inline;
+        align-items: center;
+       margin-left: 200px;
+       margin-right: 50px;
+       padding: 10px 10px;
+    
+ }
+ .house-no{
+    padding: 20px;
+    color:#ffff ;
+ }
+ .num-web{
+    color: #ffffff;
+    text-align: end;
+    padding-right: 20px;
+    padding-bottom: 5px;
+ }
+ button{
+    text-align: end;
+ }
+ .fotter{
+   color: #ffffff;
+   padding-left: 20px;
+ }
